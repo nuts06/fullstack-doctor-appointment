@@ -10,3 +10,7 @@
 .btn-primary{
   @apply bg-[#5f6fff] text-white;
 }
+
+::-webkit-scrollbar{
+  @apply hidden
+}
