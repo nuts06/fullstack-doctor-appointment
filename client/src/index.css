@@ -1,1 +1,12 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+.primary {
+  @apply text-[#5f6fff] bg-[#5f6fff];
+}
+
+.active hr{
+    @apply block;
+}
+.btn-primary{
+  @apply bg-[#5f6fff] text-white;
+}
